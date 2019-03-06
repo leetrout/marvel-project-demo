@@ -1,0 +1,78 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loading {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  transition: opacity .3s;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+header {
+  position: fixed;
+/*   position: absolute; */
+  width: 100%;
+  z-index: 4;
+  background: white;
+}
+
+.panel {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8rem;
+  overflow: hidden;
+}
+
+.red {
+  background: #bc0b0b;
+  color: #ffffff;
+}
+
+.white {
+  background: #f7f7f7;
+}
+
+.icon-marvel-logo-svg {
+    display: block;
+    width: 200px;
+    height: 78px;
+    background: url(//i.annihil.us/u/prod/misc/marvel.svg);
+    background-size: 200px 78px;
+}
+
+.small-num {
+  font-size: 5vh;
+}
+
+.big-num {
+  font-size: 20vh;  
+}
+
+.profile img {
+  height: 20vh;
+  border: white 1rem solid;
+  box-shadow: 1px 1px 2px 0px #0000004f;
+}
+
+.profile p {
+  margin: 0;
+  padding: 5rem 4rem 0 4rem;
+}
+
+.chart-container {
+  width: 50vw;
+  margin: 0 auto;
+}
