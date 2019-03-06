@@ -2,6 +2,7 @@
 .env
 
 # Just incase glitch messes up
+.gitconfig
 .git-credentials
 
 # Apple folder metadata
